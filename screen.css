@@ -1,4 +1,41 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+:root {
+    --main-bg-color:  #4E4B5C;
+    --primary-text-color: #D3D4D9;
+  }
+
+body {
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'Inter', 'sans-serif';
+    margin: auto;
+    padding: auto;
+ 
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4E4B5C;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+}
+.image-box img{
+  width: 500px;
+  height: 500px;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10, 0;
+}
+  
